@@ -41,7 +41,7 @@
 .input_new-task,.label,.input_text{
  width: 56%;
  display: inline-block;
- flex-grow: 1
+ flex-grow: 1;
 }
 
 .tasks-add__row {
@@ -156,19 +156,19 @@ input,button{
 /* Completed */
 
 .tasks-list_completed .label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
 .input_text {
-  display: none
+  display: none;
 }
 
 .item_edit-mode .input_text {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .item_edit-mode .label {
@@ -177,5 +177,5 @@ input,button{
 
 .label,
 .input_text {
-  width: 226px
+  width: 226px;
 }
