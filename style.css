@@ -23,8 +23,10 @@
 
 @media (max-width: 768px) {
 
-  .header { text-align: center;
+  .header {
+    text-align: center;
   }
+
 }
 
 .main {
@@ -38,7 +40,9 @@
   margin-block-end: 1em;
 }
 
-.input_new-task,.label,.input_text{
+.label,
+.input_new-task,
+.input_text{
  width: 56%;
  display: inline-block;
  flex-grow: 1;
@@ -57,7 +61,8 @@
   list-style: none;
 }
 
-input,button{
+input,
+button {
   outline: none;
 }
 
@@ -87,7 +92,8 @@ input,button{
   text-transform: uppercase;
 }
 
-.input_text,.input_new-task {
+.input_text,
+.input_new-task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -100,7 +106,8 @@ input,button{
   color: #888;
 }
 
-.input_text:focus,.input_new-task:focus {
+.input_text:focus,
+.input_new-task:focus {
   color: #333;
 }
 
@@ -126,8 +133,8 @@ input,button{
   align-items: center;
 }
 
-.input,
 .label,
+.input,
 .button {
   vertical-align: middle;
 }
