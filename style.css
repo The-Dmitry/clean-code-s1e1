@@ -173,12 +173,12 @@ button {
   display: none;
 }
 
-.item_edit-mode .input_text {
+.tasks-list__item_edit-mode .input_text {
   display: inline-block;
   width: 224px;
 }
 
-.item_edit-mode .label {
+.tasks-list__item_edit-mode .label {
   display: none;
 }
 
